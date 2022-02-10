@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /*
- *Comment
+ * main = print "Programming is like building a multiling * ual puzzle
  *
 */
 int main(void)

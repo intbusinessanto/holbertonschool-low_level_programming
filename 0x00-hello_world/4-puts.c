@@ -1,9 +1,7 @@
 #include <stdio.h>
 
-/*
- * main = print "Programming is like building a multiling * ual puzzle
- *
-*/
+/**  ** main - main block  ** Return: 0  **/
+
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");

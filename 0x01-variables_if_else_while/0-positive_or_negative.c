@@ -3,8 +3,8 @@
 #include <stdlib.h>
 
 /**
- ** Esto es un Comment
- ** Hola
+** main-main block
+** Return: 0
 **/
 
 int main(void)

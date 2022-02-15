@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-** _putchar - writes the character c to stdout
+** _islower - writes the character c to stdout
 ** @c: The character to print
 **
 ** Return: On success 1.
@@ -10,12 +10,11 @@
 
 int _islower(int c)
 {
-    if (c >= 97 && c <= 122)
-    {
-        return (1);
-    }
-    else{
-        return (0);
-    }
-
+if (c >= 97 && c <= 122)
+{
+return (1);
+}
+else{
+return (0);
+}
 }

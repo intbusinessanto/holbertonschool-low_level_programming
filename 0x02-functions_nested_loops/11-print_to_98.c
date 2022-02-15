@@ -1,32 +1,30 @@
 #include "main.h"
 #include <stdio.h>
-
 /**
-** print_to_98 - writes the character c to stdout
-** @n: The character to print
-** @s: The character to a
-**
-** Return: On success 1.
-** On error, -1 is returned, and errno is set appropriately.
-**/
-
+ * print_to_98 - Prints a n number until 98.
+ * @n: Variable to be ejecuted.
+ * Return: void
+ */
 void print_to_98(int n)
 {
-int s;
-
-for (s = n; s <= 98; s++)
-{        
-printf('%d\n', s);
-printf(',');
-printf(' ');
-}
-
-for (s = n; s >= 98; s--)
+if (n > 98)
 {
-printf('%d\n', s);
-printf(',');
-printf(' ');
-}   
-
-_putchar('\n');
+for (; n >= 98; n--)
+{
+if (n == 98)
+printf("%d\n", n);
+else
+printf("%d, ", n);
+}
+}
+else
+{
+for (; n <= 98; n++)
+{
+if (n == 98)
+printf("%d\n", n);
+else
+printf("%d, ", n);
+}
+}
 }

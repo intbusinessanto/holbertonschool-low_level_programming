@@ -2,8 +2,7 @@
 
 /**
 ** jack_bauer - jack_bauer: writes the character c to stdout
-** @h: The character to print
-** @m: Write
+** 
 **/
 
 void jack_bauer(void)

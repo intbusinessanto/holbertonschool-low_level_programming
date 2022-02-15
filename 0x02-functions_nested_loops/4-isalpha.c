@@ -8,17 +8,13 @@
 ** On error, -1 is returned, and errno is set appropriately.
 **/
 
-void print_alphabet_x10(void)
+int _isalpha(int c)
 {
-
-int i;
-char s;
-
-for (i = 1; i <=10; i++)
-{
-    for (s = 'a'; s < 'z'; s++)
-    _putchar(s);
-    _putchar('\n');
-}
-
+    if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+    {
+        return (1);
+    }
+    else{
+        return (0);
+    }
 }

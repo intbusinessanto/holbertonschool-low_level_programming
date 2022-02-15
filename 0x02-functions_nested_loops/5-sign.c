@@ -8,17 +8,21 @@
 ** On error, -1 is returned, and errno is set appropriately.
 **/
 
-void print_alphabet_x10(void)
+int print_sign(int n)
 {
-
-int i;
-char s;
-
-for (i = 1; i <=10; i++)
+if (n > 0)
 {
-    for (s = 'a'; s < 'z'; s++)
-    _putchar(s);
-    _putchar('\n');
+_putchar(43);
+return (1);
 }
-
+else if (n < 0)
+{
+_putchar(45);
+return (-1);
+}
+else
+{
+_putchar(48);
+return (0);
+}
 }

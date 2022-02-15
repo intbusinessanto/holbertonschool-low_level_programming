@@ -8,17 +8,12 @@
 ** On error, -1 is returned, and errno is set appropriately.
 **/
 
-void print_alphabet_x10(void)
+int print_last_digit(int n)
 {
+n = n % 10;
+if (n < 0)
+n = n * (-1);
+_putchar(n + '0');
 
-int i;
-char s;
-
-for (i = 1; i <=10; i++)
-{
-    for (s = 'a'; s < 'z'; s++)
-    _putchar(s);
-    _putchar('\n');
-}
-
+return (n);
 }

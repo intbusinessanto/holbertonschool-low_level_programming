@@ -8,17 +8,13 @@
 ** On error, -1 is returned, and errno is set appropriately.
 **/
 
-void print_alphabet_x10(void)
+int _abs(int n)
 {
-
-int i;
-char s;
-
-for (i = 1; i <=10; i++)
+if (n < 0)
 {
-    for (s = 'a'; s < 'z'; s++)
-    _putchar(s);
-    _putchar('\n');
+n = n * (-1);
+return (n);
 }
-
+else
+return (n);
 }

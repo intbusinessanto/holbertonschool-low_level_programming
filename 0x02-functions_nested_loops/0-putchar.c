@@ -9,7 +9,7 @@
 ** On error, -1 is returned, and errno is set appropriately.
 **/
 
-int main(void)
+int _putchar(char c)
 {
 
 int i;

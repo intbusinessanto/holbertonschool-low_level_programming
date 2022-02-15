@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-** jack_bauer - writes the character c to stdout
+** jack_bauer - jack_bauer: writes the character c to stdout
 ** @h: The character to print
 ** @m: Write
 ** Return: On success 1.
-** On error, -1 is returned, and errno is set appropriately.
+**
 **/
 
 void jack_bauer(void)

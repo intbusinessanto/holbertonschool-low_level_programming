@@ -2,7 +2,7 @@
 
 /**
 ** jack_bauer - jack_bauer: writes the character c to stdout
-** 
+**
 **/
 
 void jack_bauer(void)

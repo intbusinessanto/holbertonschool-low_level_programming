@@ -4,8 +4,6 @@
 ** jack_bauer - jack_bauer: writes the character c to stdout
 ** @h: The character to print
 ** @m: Write
-** Return: On success 1.
-**
 **/
 
 void jack_bauer(void)

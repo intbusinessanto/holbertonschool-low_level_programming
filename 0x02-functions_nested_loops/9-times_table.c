@@ -1,43 +1,30 @@
+#include <stdio.h>
 #include "main.h"
-
 /**
-** times_table - writes the character c to stdout
-** @m: The character to print
-** @n: Write
-** @r: Hello
-** Return: On success 1.
-** On error, -1 is returned, and errno is set appropriately.
-**/
-
+ * times_table - Generate a table until 9
+ * @x@y@z: Variables
+ * Return: void.
+ */
 void times_table(void)
 {
-int m, n, r;
-for (m = 0; m < 10; m++)
+int x, y, z;
+
+for (x = 0; x <= 9; x++)
 {
-for (n = 0; n < 10; n++)
+for (y = 0; y <= 9; y++)
 {
-r = n * m;
-if (r <= 9)
-{
-_putchar('0' + r);
-if (n != 9)
-{
-_putchar(44);
-_putchar(32);
-_putchar(32);
-}
-}
+z = x * y;
+if (y == 0)
+printf("%d, ", z);
+else if (y == 9)
+printf(" %d", z);
+else if (z < 10)
+printf(" %d, ", z);
+else if (y == 8)
+printf("%d,", z);
 else
-{
-_putchar((r / 10) + '0');
-_putchar((r % 10) + '0');
-if (n != 9)
-{
-_putchar(44);
-_putchar(32);
+printf("%d, ", z);
 }
-}
-}
-_putchar('\n');
+printf("\n");
 }
 }

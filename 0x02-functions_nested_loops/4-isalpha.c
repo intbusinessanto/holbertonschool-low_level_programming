@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-** _putchar - writes the character c to stdout
+** _isalpha - writes the character c to stdout
 ** @c: The character to print
 **
 ** Return: On success 1.
@@ -10,11 +10,11 @@
 
 int _isalpha(int c)
 {
-    if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
-    {
-        return (1);
-    }
-    else{
-        return (0);
-    }
+if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+{
+return (1);
+}
+else{
+return (0);
+}
 }

@@ -12,7 +12,7 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 /**
-** @i: Writes something 
+** @i: Writes something
 ** i = 0;
 ** while (i < 10)
 ** {

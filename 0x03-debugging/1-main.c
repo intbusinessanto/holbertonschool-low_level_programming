@@ -16,6 +16,7 @@ i = 0;
 ** {
 ** putchar(i);
 ** }
+** \\o/\n" - symbol
 **/
 printf("Infinite loop avoided! \\o/\n");
 return (0);

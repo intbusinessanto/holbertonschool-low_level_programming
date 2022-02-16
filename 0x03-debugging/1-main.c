@@ -17,7 +17,7 @@ printf("Infinite loop incoming :(\n");
 * {
 * putchar(i);
 * }
-* printf - prints the following ("Infinite loop avoided! \\o/\n");
+* printf - prints the following ("Infinite loop avoided! \\o/ \n");
 */
 printf("Infinite loop avoided! \\o/\n");
 

@@ -2,18 +2,16 @@
 #include <time.h>
 #include <stdio.h>
 
-/* one-line header goes there */
-
 /**
-** main - generates a random number  and assigns
+** positive_or_negative - generates a random number  and assigns
 ** it to the variable n
+** n - its a variable
 **
 ** Return: n and evaluates against logical operators
 **/
 
 int positive_or_negative(int n)
 {
-
 if (n == 0)
 {
 printf("%d is zero\n", n);

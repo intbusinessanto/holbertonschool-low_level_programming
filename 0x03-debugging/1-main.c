@@ -9,15 +9,13 @@ int main(void)
 {
 /** int i;*/
 printf("Infinite loop incoming :(\n");
-/*i = 0;*/
-/**
+/*i = 0;
 * printf - prints with format
 *
 * while (i < 10)
 * {
 * putchar(i);
 * }
-* printf - prints the following ("Infinite loop avoided! \\o/ \n");
 */
 printf("Infinite loop avoided! \\o/\n");
 

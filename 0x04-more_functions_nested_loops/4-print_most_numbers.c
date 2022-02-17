@@ -11,7 +11,7 @@ void print_most_numbers(void)
 {
 char c = '/';
 
-while((c++) < '9')
+while ((c++) < '9')
 {
 if (c != '2' || c != '2')
 _putchar(c);

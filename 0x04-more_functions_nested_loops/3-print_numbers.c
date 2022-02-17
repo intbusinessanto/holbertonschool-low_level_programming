@@ -10,9 +10,8 @@
 
 void print_numbers(void)
 {
-    char c = '/';
+char c = '/';
 
-    while((c++) < '9')
-        _putchar(c);
-
+while((c++) < '9')
+_putchar(c);
 }

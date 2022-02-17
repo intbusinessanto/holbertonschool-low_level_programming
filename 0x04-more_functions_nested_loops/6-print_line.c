@@ -1,22 +1,21 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
-** print_line - writes the character c to stdout
-**
-** Return: On success 1.
-** On error, -1 is returned, and errno is set appropriately.
-**/
+ * print_line - draws a straight line in the terminal
+ * @n: lines to print.
+ * Return: Always 0
+ */
 
 void print_line(int n)
 {
-int s;
-if (n >= 0)
+if (n > 0)
 {
-for (s = 0; s < n; s++)
+int i;
+
+for (i = 1; i <= n; i++)
+{
 _putchar('_');
-_putchar('\n');
 }
-else
+}
 _putchar('\n');
 }

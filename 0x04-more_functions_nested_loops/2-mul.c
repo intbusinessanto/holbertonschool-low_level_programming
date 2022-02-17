@@ -2,8 +2,6 @@
 
 /**
 ** mul - writes the character c to stdout
-** @a: The character to print
-** @b: The character to print
 ** @r: The character to print
 **
 ** Return: On success 1.

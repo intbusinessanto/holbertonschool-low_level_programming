@@ -15,6 +15,7 @@ while (*str != '\0')
 {
 if ((lenght % 2) == 0)
 _putchar(*str);
+lenght++;
 str++;
 }
 _putchar('\n');

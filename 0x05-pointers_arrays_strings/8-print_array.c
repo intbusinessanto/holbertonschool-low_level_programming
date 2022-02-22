@@ -2,8 +2,9 @@
 #include <stdio.h>
 
 /**
- * puts_half - prints a string, followed by a new line, to stdout.
- * @str: Pointer to string to print
+ * print_array - prints a string, followed by a new line, to stdout.
+ * @a: Pointer to string to print
+ * @n: Pointer to string to print
  * Return: Always 0
  */
 

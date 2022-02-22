@@ -20,7 +20,7 @@ t++;
 }
 for (i = 1; i <= t; i++)
 {
-_putchar(*(s-i));
+_putchar(*(s - i));
 }
 _putchar('\n');
 

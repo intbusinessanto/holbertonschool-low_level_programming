@@ -12,12 +12,12 @@ void rev_string(char *s)
 char *i = s;
 char temp;
 
-while (*s != '\0'){
+while (*s != '\0')
 s = s + 1;
-}
 s = s - 1;
 
-while(i <= s){
+while (i <= s)
+{
 temp = *i;
 *i = *s;
 *s = temp;

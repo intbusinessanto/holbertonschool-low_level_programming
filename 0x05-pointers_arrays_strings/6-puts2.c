@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
- * rev_string - prints a string, followed by a new line, to stdout.
- * @s: Pointer to string to print
+ * puts2 - prints a string, followed by a new line, to stdout.
+ * @str: Pointer to string to print
  * Return: Always 0
  */
 
